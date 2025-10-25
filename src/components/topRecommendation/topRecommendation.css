@@ -1,0 +1,42 @@
+.topRecCard {
+  background-color: #007bff;
+  color: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.topRecCard h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.topRecCard p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.topRecCard div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.topRecCard div span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.topRecCard div button {
+  padding: 10px 20px;
+  background-color: white;
+  color: #007bff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}

@@ -1,0 +1,19 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.actionPlanGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.actionItem {
+  padding: 10px 0;
+  list-style-type: none;
+  border-bottom: 1px dotted #ddd;
+}
