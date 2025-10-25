@@ -1,4 +1,4 @@
-Performance Dashboard (Demo)
+React Performance Dashboard (Demo)
 
 This project is a React-based personal performance dashboard designed to help a user visualize and understand the factors driving their daily productivity and well-being.
 
