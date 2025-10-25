@@ -1,16 +1,25 @@
-# React + Vite
+Performance Dashboard (Demo)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based personal performance dashboard designed to help a user visualize and understand the factors driving their daily productivity and well-being.
 
-Currently, two official plugins are available:
+It serves as a single-page interface to consolidate key metrics, identify personal performance "boosters" and "drainers," and provide a clear, actionable plan for improvement. This repository contains a demo version that uses a hardcoded JSON dataset for a sample user (U022).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features
 
-## React Compiler
+Header & Summary Stats: At-a-glance view of the user ID, days logged, and key averages (Avg. Productivity, Mood, Sleep, and Stress).
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Top Recommendation Card: A prominent, eye-catching card that highlights the single factor with the highest potential impact on the user's performance.
 
-## Expanding the ESLint configuration
+Boosters & Drainers: Two distinct sections that list the top 3 factors with the strongest positive (Boosters) and negative (Drainers) correlations to productivity.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Time Series Visualization: A responsive line chart (built with recharts) that plots the user's Mood and Productivity scores over time, making it easy to spot trends.
+
+Personalized Action Plan: A 3-priority action plan derived from the data, providing specific daily tasks to help the user act on the insights.
+
+Tech Stack
+
+React (Functional Components & Hooks)
+
+Recharts (for data visualization)
+
+Plain CSS / Inline Styles (for component-scoped styling)
